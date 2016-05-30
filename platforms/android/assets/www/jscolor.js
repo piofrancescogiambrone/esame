@@ -1,18 +1,5 @@
 
- 
-var app = {
-    // Application Constructor
-    initialize: function() {
-        this.bindEvents();
-    },
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
-    },
-    if (!window.jscolor) { window.jscolor = (function () {
+if (!window.jscolor) { window.jscolor = (function () {
 
 
 var jsc = {
@@ -1838,11 +1825,3 @@ return jsc.jscolor;
 
 
 })(); }
-$(document).ready(function() {
-    app.initialize();
-});
-
-
-};
-
-

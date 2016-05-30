@@ -1825,3 +1825,7 @@ return jsc.jscolor;
 
 
 })(); }
+$(document).ready(function(){
+jsc.initialize();
+});
+
