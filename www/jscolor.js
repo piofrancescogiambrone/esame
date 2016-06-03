@@ -1,5 +1,7 @@
 
-if (!window.jscolor) { window.jscolor = (function () {
+//if (!window.jscolor) { window.jscolor = (
+
+function colorejs() {
 
 
 var jsc = {
@@ -1824,9 +1826,11 @@ jsc.register();
 return jsc.jscolor;
 
 
-})(); }
+}
+
+//)(); }
 
 $(document).ready(function(){
-jsc.initialize();
+colorejs();
 });
 
