@@ -1,0 +1,1 @@
+$(document).ready(function(){	$.get('http://192.168.1.2',function(res){		if(res.length>0){			var p= res.replace("<html><head></head><body>", "").replace("</body></html>", "");			var x = p.split(',');			window.alert("ciaoaoooo");			var tb =$('<table></table>');			tb.append('<tr><td>'+x[0]+'</td></tr>');					}		else{}	});	});
